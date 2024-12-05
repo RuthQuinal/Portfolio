@@ -1,0 +1,182 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: mintcream;
+	color: LightCyan;
+	font-family: Verdana, Arial, sans serif;
+	font-size: 20px;
+	padding: 0;
+	margin: 0; 
+}
+
+@font-face{
+	font-family: Sankyu;
+	src: url('Sankyu.otf');
+}
+
+header{
+	width: 100%;
+	font-family: Sankyu;
+	
+}
+
+footer{
+	width: 100%;
+	background-color: DarkTurquoise;
+}
+	
+
+h1{
+	background-color: DarkTurquoise; 
+	width: 100%;
+	font-size: 500%;
+	font-family: Sankyu;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+h2{
+	color: black;
+	width: 100%;
+	font-family: Myriad Pro;
+	font-size: 200%;
+	text-align: left;
+	padding-bottom: 100px;
+}
+
+h3, h4{
+	color: black;
+	width: 100%;
+	font-family: Myriad Pro;
+	font-size: 200%;
+	text-align: left;
+	padding-bottom: 100px;
+}
+	
+h5{
+	color: black;
+	width: 100%;
+	font-family: Myraid Pro;
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+
+hr{
+	border-color: red;
+}
+
+p{
+	font-family: Garamond; 
+	color: black;
+	font-size: 120%;
+	text-align: center;
+	width: 45%;
+	margin: 0px auto;
+	padding: 40px;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	margin-bottom: 20px;
+	padding: 20px;
+	font-size: 300%;
+
+	
+}
+
+
+
+nav ul{
+	width: 50%;
+	text-align: center;
+	margin: 0px auto;
+}
+
+
+a{
+	color: maroon;
+	text-decoration: none;
+}
+
+td{
+	border: 10px solid #00088d;
+	padding: 10px;}
+					
+table{
+	border-spacing: 5px 15px;
+	
+}
+						
+form{
+	border: 10px solid #0088d;
+	color: red;
+}
+
+
+img.imgSize{
+	width: auto;
+	height: 400px;
+	margin: 10px;
+}
+
+#photoGall{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#footerimages{
+	display: flex;
+	justify-content: space-evenly; 
+	flex-wrap: wrap;
+}
+
+
+#photoGall{
+	 
+	 padding: 100px 0px;
+}
+
+h6{
+	font-family: Garamond; 
+	color: black;
+	font-size: 120%;
+	width: 100%;
+	padding-left: 40px;
+}
+
+.container {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ padding-left: 450px;
+ padding-top: 100px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+  
+}
+
+#imagesMain {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+#imagesMain img {
+
+  vertical-align: middle;
+}
